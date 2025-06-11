@@ -11,7 +11,7 @@ app.use(cors())
 app.post('/api/User/register', (req, res) => {
     console.log(req.body)
     res.json({
-        "success": true,
+        "success": false,
     });
 });
 
