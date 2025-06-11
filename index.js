@@ -16,7 +16,7 @@ app.post('/api/User/register', (req, res) => {
 });
 
 app.get('/', (req, res) => {
-    res.json({ "sucess": true, "message": "Welcome to the API" });
+    res.json({ "sucess": true, "message": "Welcome to the API...." });
 })
 
 app.listen(port, () => {
